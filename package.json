@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "tailwindcss": "^2.2.2"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "scripts": {
+    "live": "live-server",
+    "tail": "tailwindcss -o ./css/style.css --jit --purge \"./**/*.html\" -w"
+  }
+}
